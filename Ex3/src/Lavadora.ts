@@ -30,6 +30,6 @@ class Lavadora extends Electrodomesticos {
         if (this.carga >= 30) {
             this.consumoEnergetico = "D";
         }
-        return this.precioFinal();
+        return super.precioFinal();
     }
 }

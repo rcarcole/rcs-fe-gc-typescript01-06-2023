@@ -29,7 +29,7 @@ class Television extends Electrodomesticos {
         if (this.resolucion > 40) {
             this.precioBase = this.precioBase * 0.3;
         }
-        return this.precioFinal();
+        return super.precioFinal();
     }
 }
 Television.RESOLUCION_POR_DEFECTO = 20;
